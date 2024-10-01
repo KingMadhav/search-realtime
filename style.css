@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    outline-color: royalblue;
+    padding: 1vh;
+    width: 50vw;
+    border: 1px  solid white;
+
+}
+.people{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 20%;
+    height: 100%;
+}
+h4{
+    text-align: center;
+
+}
+img {
+    margin: 10px;
+    width:100%;
+    border-radius: 50%;
+    border: 2px solid burlywood;
+    background-size: cover;
+}
